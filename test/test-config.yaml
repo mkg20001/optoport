@@ -1,0 +1,5 @@
+ports:
+  testserver:
+    port: 34456
+    command: node ./testserver.js
+    launchType: service

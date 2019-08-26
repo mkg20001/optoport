@@ -12,5 +12,9 @@
     "connection"
   ],
   "author": "Maciej Krüger <mkg20001@gmail.com>",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@hapi/joi": "^15.1.1",
+    "js-yaml": "^3.13.1"
+  }
 }

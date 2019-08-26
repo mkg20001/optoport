@@ -19,7 +19,7 @@ ports:
     # checkType: periodic, end (oneshoot assumes periodic, end assumes on process exit the port is closed)
     # host: '::1' # optional host
     # cooldown: 1000 # amount, in ms, how long to wait between connects
-```
+``` # delay: 1000 # delay, in ms, before starting the server
 
 # How it works
 
