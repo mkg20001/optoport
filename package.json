@@ -1,0 +1,16 @@
+{
+  "name": "optoport",
+  "version": "0.0.1",
+  "description": "Tiny utility to listen on a specific port and launch a service when a connection gets established",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "port",
+    "launch",
+    "connection"
+  ],
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "GPL-3.0"
+}
