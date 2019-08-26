@@ -4,5 +4,5 @@ const net = require('net')
 
 net.createServer((socket) => {
   socket.write('success\n')
-  socket.end()
+  socket.destroy()
 }).listen(34456)

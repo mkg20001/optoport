@@ -4,7 +4,7 @@
   "description": "Tiny utility to listen on a specific port and launch a service when a connection gets established",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd test && bash test.sh"
   },
   "bin": {
     "optoport": "./bin.js"

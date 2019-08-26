@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 PID="/tmp/optoport-test.pid"
 
 start() {
@@ -16,8 +18,8 @@ stop() {
 }
 
 verify() {
-  OUT=$(nc localhost 34456)
-  if [ "$OUT" == "success" ]; then
+  OUT=$(echo hi | cat </dev/tcp/127.0.0.1/34456)
+  if [[ "$OUT" == "success" ]]; then
     echo "passed $*"
   else
     echo "failed $*"
