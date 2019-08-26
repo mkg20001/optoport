@@ -1,6 +1,6 @@
 {
   "name": "optoport",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Tiny utility to listen on a specific port and launch a service when a connection gets established",
   "main": "index.js",
   "scripts": {
